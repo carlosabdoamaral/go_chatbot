@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+  $CHAT_WIDTH: 100vw;
+  $CHAT_HEIGHT: calc(100vh - 70px);
+  
+  .chat_main {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+
+    .chat_content {
+      width: $CHAT_WIDTH;
+      height: $CHAT_HEIGHT;
+      max-height: $CHAT_HEIGHT;
+
+      margin-top: 0;
+      padding: .5em;
+      border-radius: 0;
+
+      .messages {
+        width: 100%;
+        padding: .2em;
+        z-index: 1;
+      }
+
+      .message_field {
+        width: 100%;
+        margin: 1em auto;
+      }
+    }
+  }
+
+  .botMessageStyle,
+  .userMessageStyle {
+    border-radius: 2em;
+    width: fit-content;
+    max-width: 70%;
+    font-size: 12px;
+  }
+}

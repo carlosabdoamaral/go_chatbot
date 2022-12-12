@@ -1,0 +1,10 @@
+{
+    "messages" : [
+        {"message" : "Você gosta de lasanha?", "answer" : ""},
+
+        {"message" : "Qual a capital de Santa Catarina", "answer" : "Floripa"},
+        {"message" : "Qual a capital de Santa Catarina", "answer" : "Florianópolis"},
+        {"message" : "Qual a capital de SC?", "answer" : "Floripa"},
+        {"message" : "Qual a capital de SC?", "answer" : "Florianopolis"}
+    ]
+}

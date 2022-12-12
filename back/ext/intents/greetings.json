@@ -1,0 +1,24 @@
+{
+    "messages" : [
+        {"message" : "Oi", "answer" : "Eai"},
+        {"message" : "Oi", "answer" : "Salve"},
+        {"message" : "Oi", "answer" : "Tudo bom?"},
+        {"message" : "Oi", "answer" : "Opa"},
+        {"message" : "Oi", "answer" : "Fala tu"},
+        {"message" : "Oi", "answer" : "Olá"},
+
+        {"message" : "Salve", "answer" : "Eai"},
+        {"message" : "Salve", "answer" : "Salve"},
+        {"message" : "Salve", "answer" : "Tudo bom?"},
+        {"message" : "Salve", "answer" : "Opa"},
+        {"message" : "Salve", "answer" : "Fala tu"},
+        {"message" : "Salve", "answer" : "Olá"},
+
+        {"message" : "Eai", "answer" : "Eai"},
+        {"message" : "Eai", "answer" : "Eai"},
+        {"message" : "Eai", "answer" : "Tudo bom?"},
+        {"message" : "Eai", "answer" : "Opa"},
+        {"message" : "Eai", "answer" : "Fala tu"},
+        {"message" : "Eai", "answer" : "Olá"}
+    ]
+}

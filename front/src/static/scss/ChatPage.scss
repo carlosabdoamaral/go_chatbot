@@ -1,0 +1,80 @@
+$DARK: #011826;
+$BLUE_DARK: #254559;
+$BLUE_PASTEL: #6393a6;
+$BLUE_LIGHT: #8fcbd9;
+$NUDE: #f2cdac;
+$CHAT_WIDTH: 100vw;
+$CHAT_HEIGHT : 100vh;
+$CHAT_BG: rgb(27, 27, 28);
+
+.chat_main {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: calc(100vh - 70px);
+  background-color: $CHAT_BG;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .chat_content {
+    width: $CHAT_WIDTH;
+    height: $CHAT_HEIGHT;
+    max-height: $CHAT_HEIGHT;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0.5em;
+    background-color: #e1e1e1;
+
+    // margin-top: 2em;
+    // border-radius: 20px;
+
+    .messages {
+      overflow-y: scroll;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2em;
+      z-index: 1;
+      backdrop-filter: blur(2px);
+    }
+
+    .message_field {
+      width: 100%;
+      margin: 2em auto;
+    }
+  }
+}
+
+.botMessageStyle,
+.userMessageStyle {
+  font-family: Poppins;
+  margin: 1em 0;
+  border-radius: 5em;
+  width: fit-content;
+  max-width: 30%;
+  padding: 0.8em 1.5em;
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.botMessageStyle {
+  margin-right: auto;
+  background: linear-gradient(45deg, #ffff, rgb(216, 216, 216));
+  filter: drop-shadow(0 0 5px rgb(197, 197, 197));
+  color: rgb(141, 141, 141);
+}
+
+.userMessageStyle {
+  margin-left: auto;
+  background: linear-gradient(rgb(230, 176, 0), transparent),
+    linear-gradient(-45deg, rgb(230, 176, 0), transparent),
+    linear-gradient(45deg, yellow, transparent);
+  background-blend-mode: multiply;
+  color: #fff;
+  filter: drop-shadow(0 0 5px rgb(230, 176, 0));
+}

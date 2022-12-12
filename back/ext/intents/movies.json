@@ -1,0 +1,8 @@
+{
+    "messages" : [
+        {"message" : "Me indica um filme", "answer" : "Negativo."},
+        {"message" : "Indica um filme", "answer" : "Negativo."},
+        {"message" : "Indica um filme", "answer" : "Minions."},
+        {"message" : "Indica um filme", "answer" : "The rock."}
+    ]
+}

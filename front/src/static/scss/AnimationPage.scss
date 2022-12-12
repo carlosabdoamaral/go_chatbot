@@ -1,0 +1,82 @@
+$DARK: #011826;
+$BLUE_DARK: #254559;
+$BLUE_PASTEL: #6393a6;
+$BLUE_LIGHT: #8fcbd9;
+$NUDE: #f2cdac;
+$animation_duration: 6s;
+
+.initial-animation-view {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  animation: $animation_duration backgroundAnimation ease-in forwards;
+
+  h1,
+  h3 {
+    color: purple;
+    text-align: center;
+    color: #000;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    animation: $animation_duration textAnimation ease-in forwards;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h3 {
+    font-family: "Poppins Light";
+  }
+}
+
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+    color: #fff;
+  }
+
+  20% {
+    opacity: 1;
+    color: #fff;
+  }
+
+  90% {
+    opacity: 1;
+    color: #fff;
+  }
+
+  100% {
+    opacity: 0;
+    color: #fff;
+  }
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background: linear-gradient(rgb(230, 176, 0), transparent),
+      linear-gradient(-45deg, rgb(230, 176, 0), transparent),
+      linear-gradient(45deg, yellow, transparent);
+    background-blend-mode: multiply;
+  }
+
+  40% {
+    background: linear-gradient(rgb(230, 176, 0), transparent),
+      linear-gradient(-45deg, rgb(230, 176, 0), transparent),
+      linear-gradient(45deg, yellow, transparent);
+    background-blend-mode: multiply;
+  }
+
+  60% {
+    background-color: #000;
+  }
+
+  100% {
+    background-color: #000;
+  }
+}
